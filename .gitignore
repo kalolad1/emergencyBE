@@ -5,7 +5,10 @@
 .DS_Store
 
 # Local settings for deployment environment
-local_settings.py
+emergencyBE/local_settings.py
 
 # Virtual environment
 venv/
+
+*.pyc
+__pycache__

@@ -40,7 +40,7 @@ h1 {
 
 .short-message {
     margin-top: 20px;
-    font-size: 50px;
+    font-size: 80px;
     font-family: cursive, sans-serif;
     color: var(--text-color);
 }
@@ -91,3 +91,4 @@ footer {
         font-size:200px;
     }
 }
+

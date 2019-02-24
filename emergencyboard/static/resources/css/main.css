@@ -34,7 +34,7 @@ h1 {
 }
 
 #override {
-    border-radius: 5px;
+    border-radius: 60px;
     border-color: var(--button-color);
 }
 

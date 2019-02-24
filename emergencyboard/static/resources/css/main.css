@@ -38,6 +38,10 @@ h1 {
     border-color: var(--button-color);
 }
 
+.btn:hover {
+    background-color: #dba527;
+}
+
 .short-message {
     margin-top: 20px;
     font-size: 80px;

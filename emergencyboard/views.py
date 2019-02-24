@@ -8,4 +8,4 @@ def home(request):
 
 def random_link(request):
     random_link = helper.get_random_link()
-    return redirect(random_link.link)
+    return redirect(random_link)

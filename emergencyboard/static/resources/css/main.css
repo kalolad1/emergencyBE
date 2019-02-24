@@ -18,19 +18,29 @@ h1 {
 }
 
 .main-button-div {
-    margin-top: 40px;
+    width:1000px;
+    height:500px;
     text-align: center;
+    /* The magic centering code */
+    margin:auto;
+    position:absolute;
+    top:0;bottom:0; /* Aligns Vertically - Remove for Horizontal Only */
+    left:0;right:0; /* Aligns Horizontally - Remove for Vertical Only  */
+
+    /* Prevent div from overflowing main window */
+    max-width:100%;
+    max-height:100%;
+    overflow:auto;
 }
 
 #override {
-    padding: 20px;
     border-radius: 5px;
     border-color: var(--button-color);
 }
 
 .short-message {
-    padding-top: 20px;
-    font-size: 30px;
+    margin-top: 20px;
+    font-size: 50px;
     font-family: cursive, sans-serif;
     color: var(--text-color);
 }
@@ -47,37 +57,37 @@ footer {
 }
 
 @media (max-width: 512px) {
-  .btn {
-    font-size:75px;
-    padding:4px 6px;
-  }
+    .btn {
+        font-size:75px;
+        padding:4px 6px;
+    }
 }
 
 @media (min-width: 512px) {
-  .btn {
-    font-size:100px;
-    padding:6px 12px;
-  }
+    .btn {
+        font-size:100px;
+        padding:6px 12px;
+    }
 }
 
 
 @media (min-width: 768px) {
-  .btn {
-    font-size:125px;
-    padding:6px 12px;
-  }
+    .btn {
+        font-size:125px;
+        padding:6px 12px;
+    }
 }
 
 @media (min-width: 992px) {
-  .btn {
-    font-size:150px;
-    padding:8px 12px;
-  }
+    .btn {
+        font-size:150px;
+        padding:8px 12px;
+    }
 }
 
 @media (min-width: 1200px) {
-  .btn {
-    padding:10px 16px;
-    font-size:200px;
-  }
+    .btn {
+        padding:10px 16px;
+        font-size:200px;
+    }
 }

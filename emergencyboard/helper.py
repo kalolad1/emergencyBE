@@ -8,7 +8,7 @@ def get_random_link():
 
 
 def get_random_number_from_range(upper_bound):
-    return random.randint(0, upper_bound)
+    return random.randint(0, upper_bound - 1)
 
 
 class LinkSet:

@@ -1,0 +1,83 @@
+:root {
+    --button-color: #fabe2e;
+    --background-color: #07575B;
+    --text-color: black;
+    --submit-link-color: #fabe2e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background-color);
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+}
+
+.main-button-div {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#override {
+    padding: 20px;
+    border-radius: 5px;
+    border-color: var(--button-color);
+}
+
+.short-message {
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: cursive, sans-serif;
+    color: var(--text-color);
+}
+
+.submit-link {
+    color: var(--submit-link-color)
+}
+
+footer {
+    position:fixed;
+    bottom: 10px;
+    left: 10px;
+    font-family: Roboto, sans-serif;
+}
+
+@media (max-width: 512px) {
+  .btn {
+    font-size:75px;
+    padding:4px 6px;
+  }
+}
+
+@media (min-width: 512px) {
+  .btn {
+    font-size:100px;
+    padding:6px 12px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .btn {
+    font-size:125px;
+    padding:6px 12px;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn {
+    font-size:150px;
+    padding:8px 12px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn {
+    padding:10px 16px;
+    font-size:200px;
+  }
+}

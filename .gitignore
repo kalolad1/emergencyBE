@@ -1,0 +1,11 @@
+# PyCharm Specific
+.idea/
+
+# Mac OS
+.DS_Store
+
+# Local settings for deployment environment
+local_settings.py
+
+# Virtual environment
+venv/

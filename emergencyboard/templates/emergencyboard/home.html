@@ -3,15 +3,16 @@
 <head>
     {% load static %}
     <meta charset="UTF-8">
-    <title>Eating Emergency</title>
+    <title>Emergency</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="{% static 'resources/css/main.css'%}">
+    <link rel="shortcut icon" href={% static 'resources/favicon.ico' %}>
 </head>
 <body>
 <div class="main-button-div">
     <a href="{% url 'emergencyboard/random_link' %}" class="btn btn-warning btn-responsive" id="override">Emergency</a>
 
-    <p class="short-message">If you are thinking of binge eating, don't.</p>
+    <p class="short-message">Stop and take a deep breath.</p>
 </div>
 
 {#<footer>#}

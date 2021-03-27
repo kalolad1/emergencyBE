@@ -76,24 +76,6 @@ TEMPLATES = [
 WSGI_APPLICATION = 'emergencyBE.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/2.1/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': config.DATABASE_NAME,
-        'USER': config.DATABASE_USER,
-        'PASSWORD': config.DATABASE_PASSWORD,
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
-}
-
-db_from_env = dj_database_url.config(conn_max_age=500)
-DATABASES['default'].update(db_from_env)
-
-
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
 

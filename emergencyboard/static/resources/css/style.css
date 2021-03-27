@@ -19,7 +19,7 @@ body {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   font-size: 40px;
-  margin-top: 5%;
+  margin-top: 100px;
   text-align: center;
 }
 
@@ -100,7 +100,7 @@ button:hover::after, button:focus::after {
 }
 
 img {
-  width: 30%;
+  width: 40%;
 }
 
 .footer-container {
@@ -111,14 +111,14 @@ img {
   padding-bottom: 5px;
 }
 
+.icon-attribution {
+  font-family: Poppins, sans-serif;
+  font-size: 10px;
+}
+
 /* Phones */
 @media screen and (max-width: 600px) {
   .headline-text {
-    margin-top: 20%;
-    font-size: 4vh;
-  }
-
-  .footer-container {
-    font-size: 10px;
+    font-size: 32px;
   }
 }

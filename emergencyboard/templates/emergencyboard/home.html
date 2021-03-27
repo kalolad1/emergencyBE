@@ -4,30 +4,33 @@
     {% load static %}
     <meta charset="UTF-8">
     <title>Emergency Motivation</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="{% static 'resources/css/style.css'%}">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="{% static 'resources/css/style.css' %}">
     <link rel="shortcut icon" href={% static 'resources/lotus.png' %}>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="content-container">
-      <div class="headline-text">
+<div class="content-container">
+    <div class="headline-text">
         <h1>Stop! Take a breath.</h1>
-      </div>
-      <div class="wrap">
-          <button onclick="location.href='{% url 'emergencyboard/random_link' %}'" type="button" class="button">Emergency Motivation</button>
-      </div>
-      <div class="calm-person-image">
+    </div>
+    <div class="wrap">
+        <button onclick="location.href='{% url 'emergencyboard/random_link' %}'" type="button" class="button">Emergency
+            Motivation
+        </button>
+    </div>
+    <div class="calm-person-image">
         <img src="{% static 'resources/calm.svg' %}" alt="Calm person.">
-      </div>
-      <div class="footer-container">
+    </div>
+    <div class="footer-container">
         <span><a href="https://www.nationaleatingdisorders.org/help-support/contact-helpline">Resources for Binge Eating Disorder</a>
         | Created by <a href="http://darshankalola.com">Darshan Kalola</a></span>
-      </div>
-        <div class="icon-attribution">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        <div class="icon-attribution">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
+            href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     </div>
+</div>
 </body>
 
 </html>

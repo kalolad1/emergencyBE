@@ -16,6 +16,7 @@
   font-weight: 600;
   font-size: 40px;
   text-align: center;
+  margin-top: 20px;
 }
 
 .wrap {
@@ -23,6 +24,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .button {
